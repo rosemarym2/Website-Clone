@@ -18,3 +18,10 @@
   padding: 8px 12px;
   position: relative;
 }
+h2{
+    width: 300px;
+    border: 15px #6B3670;
+    padding: 50px;
+    content: #6B3670;
+    margin: 20px;
+}

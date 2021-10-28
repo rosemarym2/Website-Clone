@@ -2,12 +2,16 @@
   font-family: sans-serif;
   font-size: 16px;
 }
+.national-trust-masterheader {
+  color: #fff;
+}
 nav {
-  background-color: #fff; /*#93032e8*/
+  background-color: #93032e; /*#93032e*/
+  width: 100%;
   color: black;
   margin: 0;
-  padding: 40px;
-  display: inline-block;
+  padding: 20px;
+  display: flex;
   flex-direction: row;
   position: fixed;
   top: 2;
@@ -29,20 +33,15 @@ nav {
   color: white; /*#351431*/
   display: inline-block;
 }
-.nav li {
-  display: inline-block;
-  color: grey;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
+  width: 100%;
   font-family: sans-serif;
   font-size: 16px;
-  display: inline-block;
+  display: flex;
   overflow: hidden;
 }
 li {
@@ -70,11 +69,25 @@ li a {
   justify-content: flex-end;
 }
 h2 {
-  width: 300px;
-  border: 300px #6b3670;
+  width: 600px;
+  height: 400px;
+  background-color: #6b3670;
+  border: 300px #fff;
   padding: 50px;
-  content: #6b3670;
+  color: #fff;
   margin: 20px;
+  text-decoration-color: #fff;
+  text-decoration: #fff;
+  direction: flex;
+  justify-content: center;
+}
+.visitng {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #6b3670;
 }
 .nt-footer {
   box-sizing: border-box;

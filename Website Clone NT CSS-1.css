@@ -7,7 +7,6 @@
 }
 body,
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -86,8 +85,8 @@ li a {
   justify-content: flex-end;
 }
 h2 {
-  width: 600px;
-  height: 400px;
+  width: 850px;
+  height: 150px;
   background-color: #6b3670;
   border: 300px #fff;
   padding: 50px;
@@ -97,6 +96,11 @@ h2 {
   text-decoration: #fff;
   direction: flex;
   justify-content: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  position: relative;
+  left: 25%;
 }
 .visitng {
   box-sizing: border-box;

@@ -3,19 +3,24 @@
   font-size: 16px;
 }
 nav {
-  background-color: #93032E;
-  color: #fff;
+  background-color: #fff;/*#93032e8*/
+  color:black;
   margin: 0px;
   padding: 40px;
   display: flex;
+  flex-direction: row;
   position: fixed;
   justify-content: flex-end;
+  text-align: center;
   font-size: 20px;
   z-index: 10;
- }
-.main-menu {
+}
+.nav-menu {
   font-family: sans-serif;
   font-size: 16px;
+}
+.nav-menu a:hover {
+  background: grey;/*#351431*/
 }
 * {
   box-sizing: border-box;

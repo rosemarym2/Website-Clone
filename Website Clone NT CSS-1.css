@@ -365,7 +365,7 @@ h6 {
 }
 .small-block-grid-1 {
 display: flex;
-justify-content: left;
+justify-content: center;
 }
 
 .small-block-grid-1 :hover {

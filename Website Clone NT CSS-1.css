@@ -154,7 +154,7 @@ h2 {
   clear: both;
   display: table;
 }
-.visiting {
+.visiting, .agm {
   box-sizing: border-box;
   width: 400px;
   margin-left: 5%;
@@ -164,7 +164,7 @@ h2 {
   justify-content: center;
   color: #fff;
 }
-.visit-btn {
+.visit-btn, .your-say-btn {
   box-sizing: border-box;
   justify-items: right;
   margin-left: 60%;
@@ -192,7 +192,7 @@ button:hover {
   background: #fff;
   color: #6b3670;
 }
-h2 p {
+h2 p, h4 p {
   text-align: right;
   width: 400px;
   margin-left: 50%;
@@ -219,7 +219,7 @@ hr {
 }
 .column {
   float: left;
-  margin-left: 1%;
+  margin-left: 0;
   width: 33.33%;
   padding: 0 0 10%;
   height: 100%;
@@ -237,12 +237,12 @@ hr {
   background: #d3d3d3;
 }
 .row {
-  margin: 0 -5px;
+  margin: 0;
 }
 
 .column2 {
   float: left;
-  margin-left: 1%;
+  margin-left: 0;
   width: 100%;
   padding: 0 0 10%;
   height: 100%;
@@ -269,6 +269,51 @@ hr {
   display: table;
   clear: both;
 }
+h4 {
+  width: 850px;
+  height: 168px;
+  background-color: #107786;
+  border: 300px #fff;
+  padding: 50px;
+  color: #fff;
+  margin: 20px;
+  margin-bottom: 28%;
+  text-decoration-color: #fff;
+  text-decoration: #fff;
+  direction: flex;
+  justify-content: center;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  position: relative;
+  left: 25%;
+  z-index: 1;
+}
+.your-say-btn {
+  background-color: #107786;
+  border: 2px solid #fff;
+  border-radius: 26px;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  position: bottom right;
+}
+.your-say-btn:hover {
+  background: #fff;
+  color: #107786;
+}
+.nt-image-information-description,
+.nt-image-information-credit {
+  color: black;
+  font-size: 14px;
+  margin-top: 0;
+}
+
 h5 {
   width: 850px;
   height: 168px;

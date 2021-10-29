@@ -34,7 +34,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: end;
   justify-content: flex-end;
 }
 .nav-menu a:hover {
@@ -68,6 +68,52 @@ li a {
   color: grey;
   padding: 14px 16px;
   text-decoration: none;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mySlides-fade1:hover .image {
+  opacity: 0.3;
+}
+
+.mySlides-fade1:hover .middle {
+  opacity: 1;
+}
+.mySlides-fade2:hover .image {
+  opacity: 0.3;
+}
+
+.mySlides-fade2:hover .middle {
+  opacity: 1;
+}
+.mySlides-fade3:hover .image {
+  opacity: 0.3;
+}
+
+.mySlides-fade3:hover .middle {
+  opacity: 1;
 }
 
 .button-round-nt-button,
@@ -103,7 +149,7 @@ h2 {
   position: relative;
   left: 25%;
 }
-.clearfix::after{
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
@@ -117,6 +163,11 @@ h2 {
   align-items: center;
   justify-content: center;
   color: #fff;
+}
+.visit-btn {
+  box-sizing: border-box;
+  justify-items: right;
+  margin-left: 60%;
 }
 p {
   font-family: arial;
@@ -140,6 +191,14 @@ button {
 button:hover {
   background: #fff;
   color: #6b3670;
+}
+h2 p {
+  text-align: right;
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -10%;
+  display: flex;
+  flex-wrap: wrap;
 }
 h3 {
   font-family: "Times New Roman";
@@ -179,12 +238,14 @@ hr {
 .column2 {
   float: left;
   margin-left: 0%;
-  width: 20%;
+  width: 50%;
   padding: 0;
   height: 100%;
-  inline-size: 25%;
+  inline-size: 50%;
   overflow-wrap: normal;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 600px) {
   .column2 {

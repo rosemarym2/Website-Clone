@@ -205,6 +205,10 @@ h3 {
   font-size: 60px;
   text-align: center;
 }
+.row {
+  display: flex;
+  justify-content: center;
+}
 
 hr {
   background: #000;
@@ -235,22 +239,27 @@ hr {
 .row {
   margin: 0 -5px;
 }
+
+
 .column2 {
   float: left;
-  margin-left: 0%;
+  margin-left: 1%;
   width: 50%;
-  padding: 0;
+  padding: 0 0 10%;
   height: 100%;
-  inline-size: 50%;
+  inline-size: 30%;
   overflow-wrap: normal;
   font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
+  position: relative;
 }
 @media screen and (max-width: 600px) {
   .column2 {
     width: 100%;
   }
+}
+.row2 {
+  display: flex;
+  justify-content: center;
 }
 /* Clear floats after the columns */
 .row:after {

@@ -154,7 +154,7 @@ h2 {
   clear: both;
   display: table;
 }
-.visiting, .agm {
+.visiting {
   box-sizing: border-box;
   width: 400px;
   margin-left: 5%;
@@ -289,6 +289,24 @@ h4 {
   left: 25%;
   z-index: 1;
 }
+.agm {
+  box-sizing: border-box;
+  width: 400px;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+h4 p {
+  text-align: right;
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -8%;
+  display: flex;
+  flex-wrap: wrap;
+}
 .your-say-btn {
   background-color: #107786;
   border: 2px solid #fff;
@@ -302,6 +320,7 @@ h4 {
   font-size: 20px;
   cursor: pointer;
   position: bottom right;
+  margin-top: -10%;
 }
 .your-say-btn:hover {
   background: #fff;
@@ -344,12 +363,17 @@ h6 {
   justify-content: center;
   margin-top: 20%;
 }
-.nt-footer {
-  box-sizing: border-box;
+.small-block-grid-1 {
+display: flex;
+justify-content: left;
 }
+
+.small-block-grid-1 :hover {
+color: #bbb;
+  }
 .column3{
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 @media screen and (max-width: 600px) {
   .column3 {

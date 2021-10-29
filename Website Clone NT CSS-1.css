@@ -103,13 +103,20 @@ h2 {
   position: relative;
   left: 25%;
 }
-.visitng {
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.visiting {
   box-sizing: border-box;
+  width: 400px;
+  margin-left: 5%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #6b3670;
+  color: #fff;
 }
 p {
   font-family: arial;
@@ -209,10 +216,7 @@ h5 {
   left: 25%;
   z-index: 1;
 }
-.nt-homepage{
-  position: relative;
-  text-align: end;
-}
+
 .nt-footer {
   box-sizing: border-box;
 }

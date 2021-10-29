@@ -302,7 +302,14 @@ h6 {
 .nt-footer {
   box-sizing: border-box;
 }
-
+.column3{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+  }
 /*carosel
 * {
   box-sizing: border-box;

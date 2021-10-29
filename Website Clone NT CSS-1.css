@@ -240,11 +240,10 @@ hr {
   margin: 0 -5px;
 }
 
-
 .column2 {
   float: left;
   margin-left: 1%;
-  width: 50%;
+  width: 100%;
   padding: 0 0 10%;
   height: 100%;
   inline-size: 30%;
@@ -260,6 +259,9 @@ hr {
 .row2 {
   display: flex;
   justify-content: center;
+}
+.column2:hover {
+  background: #d3d3d3;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -286,7 +288,17 @@ h5 {
   left: 25%;
   z-index: 1;
 }
-
+.nt-image-information-description,
+.nt-image-information-credit {
+  color: black;
+  font-size: 14px;
+  margin-top: 0;
+}
+h6 {
+  direction: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
 .nt-footer {
   box-sizing: border-box;
 }

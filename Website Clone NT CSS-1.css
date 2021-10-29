@@ -319,7 +319,7 @@ h4 p {
   font-family: sans-serif;
   font-size: 20px;
   cursor: pointer;
-  position: bottom right;
+  position: left;
   margin-top: -10%;
 }
 .your-say-btn:hover {
